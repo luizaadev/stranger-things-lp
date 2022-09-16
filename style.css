@@ -404,3 +404,111 @@ footer::after {
   transform: rotateZ(10deg);
 }
 
+/* Responsividade */
+
+  @media screen and (max-width: 380px) {
+  
+    .header-content {
+      max-width: 380px;
+    }
+  
+    section {
+      margin-bottom: 50px;
+    }
+  
+    #section-inverted-world {
+      max-width: 380px;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #section-inverted-world .section-texts h2  {
+      text-align: center;
+      font-size: 40px;
+    }
+  
+    #section-inverted-world .section-texts p {
+      text-align: center;
+      max-width: 350px;
+    }
+  
+    #section-stranger-things-trailer .section-texts p {
+      text-align: center;
+      margin-left: 50px;
+      width: 300px;
+    }
+  
+    #section-stranger-things-trailer {
+      flex-direction: column;
+      text-align: center;
+      max-width: 380px;
+    }
+  
+    #section-stranger-things-trailer .video-frame {
+      width: 300px;
+    }
+  
+    #section-stranger-things-trailer .video-frame iframe {
+      width: 300px;
+    }
+  
+    #section-stranger-things-gallery .container h2 {
+      width: 380px;
+      padding: 5px;
+      font-size: 40px;
+    }
+  
+    #section-stranger-things-gallery .gallery-container {
+      max-width: 380px;
+      width: 350px;
+      border: none;
+      outline: none;
+    }
+  
+    #section-stranger-things-gallery .gallery-image img {
+      border: 1px solid var(--highlight-color);
+  
+    }
+  
+  
+    #section-form h2 {
+      width: 380px;
+      font-size: 40px;
+    }
+  
+    #section-form p {
+      text-align: center;
+      width: 350px;
+  
+    }
+  
+    .form-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #section-form .form-content h3 {
+      max-width: 380px;
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    #section-form .form-container::after {
+      left: 22px;
+    }
+  
+    footer p {
+      max-width: 380px;
+  
+    }
+    
+    footer::before,
+    footer::after {
+      width: 200px;
+      height: 100px;
+    }
+  }
+
